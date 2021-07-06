@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/soft_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/blue"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_home"
+        android:paddingBottom="80dp"
+
+        >
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Welcome , People"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:paddingTop="40dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+
+        >
+
+        <TextView
+            android:id="@+id/btn_myTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/round_btn_home"
+            android:drawableLeft="@drawable/ic_todo"
+            android:drawableRight="@drawable/ic_todo"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:shadowColor="#00ccff"
+            android:text="@string/my_todo"
+            android:textColor="@color/gray"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/btn_searchTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn_home"
+            android:drawableRight="@drawable/ic_search"
+            android:drawableLeft="@drawable/ic_search"
+            android:text="@string/search_todo"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            android:shadowColor="#00ccff"
+            android:elevation="5dp"
+            />
+        <TextView
+            android:id="@+id/btn_searchUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn_home"
+            android:drawableRight="@drawable/ic_people"
+            android:drawableLeft="@drawable/ic_people"
+            android:text="@string/search_user"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            android:shadowColor="#00ccff"
+            android:elevation="5dp"
+            />
+        <TextView
+            android:id="@+id/btn_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn_home"
+            android:drawableRight="@drawable/ic_face"
+            android:drawableLeft="@drawable/ic_face"
+            android:text="@string/profile"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/gray"
+            android:layout_marginTop="15dp"
+            android:shadowColor="#00ccff"
+            android:elevation="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="@string/_2021_by_brian_karnadi_japar"
+            android:padding="18dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

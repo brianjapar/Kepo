@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Kepo</string>
+    <string name="_2021_by_brian_karnadi_japar">© 2021 by Brian Karnadi Japar</string>
+    <string name="make_stalking_easier">Make stalking easier!</string>
+    <string name="login">LOGIN</string>
+    <string name="search_todo">Search Todo</string>
+    <string name="profile">Profile</string>
+    <string name="search_user">Search User</string>
+    <string name="people_name">People Name</string>
+    <string name="people_username">People Username</string>
+    <string name="create_todo">Create Todo</string>
+    <string name="my_todo">My Todo</string>
+    <string name="ok">OK</string>
+    <string name="error_desciprion">Error Desciprion!</string>
+    <string name="no_data">No Data</string>
+    <string name="detail_todo">Detail Todo</string>
+    <string name="your_todo_will_be_visible_to_others">Your todo will be visible to others</string>
+    <string name="last_edited">Last Edited :</string>
+    <string name="description">Description</string>
+    <string name="description_training_android_studio">Description Training Android Studio</string>
+    <string name="training_android_studio">Training Android Studio</string>
+    <string name="title">Title</string>
+    <string name="update_todo">Update Todo</string>
+    <string name="_0_100">0/100</string>
+    <string name="todos_0">Todos: 0</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+</resources>
